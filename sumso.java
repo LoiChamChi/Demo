@@ -2,20 +2,20 @@ package Demo;
 
 import java.util.Scanner;
 
-public class trung {
+public class sumso {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
+    
+    Scanner sc = new Scanner(System.in);
         System.out.print("nhap a: ");
         int  a = sc.nextInt();
         int tam;
-        
-        while (a>0) {
+        int kq =0;
+        while(a>0){
             tam = a%10;
+            kq += tam;
             a = a/10;
-            if(tam==3 ){
-                count++;   
-            }
         }
-        System.out.println("số trùng là : " + count);
+        System.out.println("sum là : " + kq);
     }
 }
