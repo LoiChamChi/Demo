@@ -8,9 +8,11 @@ public class giaythua {
         System.out.print("nhap a: ");
         int a = sc.nextInt();
         int sum = 1;
+        int count = 0;
 
         for (int i = 1; i <= a; i++) {
             sum *= i;
+            c
         }
         System.out.println(a + "! là :" + sum);
     }
