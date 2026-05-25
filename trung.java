@@ -8,7 +8,7 @@ public class trung {
         System.out.print("nhap a: ");
         int  a = sc.nextInt();
         int tam;
-        
+        int count= 0;
         while (a>0) {
             tam = a%10;
             a = a/10;
